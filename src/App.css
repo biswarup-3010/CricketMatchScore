@@ -9,6 +9,12 @@
   font-weight: 400;
   font-style: normal;
 }
+.bg-header {
+  background-color: #0c0a09;
+}
+.bg-wh {
+  background-color: #44403c;
+}
 @keyframes spiralGrow {
   0% {
     transform: rotate(720deg) scale(0); /* Start small and rotated */
@@ -34,4 +40,13 @@
 
 .animate-spiral {
   animation: spiralGrow 3s ease-out forwards; /* 3s duration, ease-out timing */
+}
+.min-h {
+  min-height: 50vh;
+}
+.min-dis-h {
+  min-height: 45vh;
+}
+.h {
+  height: 100vw;
 }

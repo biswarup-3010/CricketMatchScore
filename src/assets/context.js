@@ -9,6 +9,9 @@ const MyContext = createContext({
   targetRun: 0,
   currentWicket: { team1: 0, team2: 0 },
   currentScore: { team1: 0, team2: 0 },
+  over: 0,
+  ball: 0,
+  innings: "1",
 });
 
 export default MyContext;
